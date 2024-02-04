@@ -1,3 +1,6 @@
+//access modifiers, instances
+// all four types of access modifiers and it's uses
+
 public class A {
     int x=10;
     private int y=15;
@@ -13,10 +16,25 @@ public class A {
     }
 }
 
-
+/*
 public class B {
     public static void main(String[] args) {
         A ob1=new A();
     }
 }
+*/
 
+
+/*
+public class C extends A {
+    public static void main(String[] args) {
+        A ob2=new A();
+        //default and private are not accessible outside packge
+        //System.out.println(ob2.x);
+       // System.out.println(ob2.y);
+        // System.out.println(ob2.z);
+        // System.out.println(ob2.w);
+    }
+}
+
+*/
